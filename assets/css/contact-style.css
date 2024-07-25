@@ -1,0 +1,95 @@
+.contact-pic {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  opacity: .5;
+}
+.contact-subtitle {
+  color: #c5a47e;
+  font-size: 13px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  word-spacing: 3px;
+  position: relative;
+  padding-left: 30px;
+  margin-left: 5px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 0px;
+}
+.title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.talk {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.color {
+  color: #c5a47e;
+}
+.form input {
+  max-width: 100%;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  padding: 15px 0;
+  height: auto;
+  background-color: transparent;
+  box-shadow: none;
+  border-width: 0 0 1px;
+  border-style: solid;
+  display: block;
+  width: 100%;
+  line-height: 1.5em;
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background-image: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  border-radius: 0px;
+  outline: none;
+}
+input:focus{
+  border-bottom: 1px solid #c5a47e;
+}
+.form ::placeholder{
+  color: #999;
+}
+#send {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Barlow", sans-serif;
+  background: #c5a47e;
+  color: #fff;
+  padding: 10px 30px;
+  margin: 0;
+  position: relative;
+  border-radius: 50px;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid transparent;
+  outline: none;
+}
+#send:hover {
+  background-color: transparent;
+  color: #c5a47e;
+  border: 1px solid #c5a47e;
+}
+.iframe {
+  margin-top: 12px;
+  margin-bottom: 4px;
+  width: 100%;
+}
+.form input:focus{
+  border-bottom: 1px solid #c5a47e; 
+} 

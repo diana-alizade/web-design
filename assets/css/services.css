@@ -1,0 +1,66 @@
+.grider{
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: auto auto auto;
+  gap: 20px 50px;
+}
+img:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+.number {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  color: transparent;
+  -webkit-text-stroke: 1px #c5a47e;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+.active:hover{
+  background-image: url(../images/projects/01.jpg);
+}
+.project-detail-service {
+  color: #c5a47e;
+  height: 300px;
+  width: 100%;
+  align-content: center;
+}
+
+.content{
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.project-detail-service P {
+  z-index: 1;
+  color: #999;
+  position: relative;
+  margin-top: 24px;
+  letter-spacing: 0.1rem;
+}
+.project-detail-service h5 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+ @media screen and (max-width: 768px) {
+  .grider {
+    display: flex;
+    flex-direction: column;
+  }
+} 
+
+ .back-div{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+} 

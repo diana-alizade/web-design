@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   padding-top: 160px;
   padding-bottom: 160px;
-  opacity: .5;
+  opacity: 0.5;
 }
 .contact-subtitle {
   color: #c5a47e;
@@ -58,10 +58,10 @@
   border-radius: 0px;
   outline: none;
 }
-input:focus{
+input:focus {
   border-bottom: 1px solid #c5a47e;
 }
-.form ::placeholder{
+.form ::placeholder {
   color: #999;
 }
 #send {
@@ -90,6 +90,28 @@ input:focus{
   margin-bottom: 4px;
   width: 100%;
 }
-.form input:focus{
-  border-bottom: 1px solid #c5a47e; 
-} 
+.form input:focus {
+  border-bottom: 1px solid #c5a47e;
+}
+.icon-social {
+  height: 40px;
+  line-height: 40px;
+  margin-right: 3px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  display: inline-block;
+  padding: 6px;
+  margin-top: 16px;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  border-radius: 100%;
+  margin-right: 3px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.icon-social:hover {
+  border: 1px solid #c5a47e;
+}

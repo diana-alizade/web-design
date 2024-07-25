@@ -21,8 +21,23 @@ img:hover {
   opacity: 1;
   margin-bottom: 20px;
 }
-.active:hover{
+.active1:hover{
   background-image: url(../images/projects/01.jpg);
+}
+.active2:hover{
+  background-image: url(../images/projects/02.jpg);
+}
+.active3:hover{
+  background-image: url(../images/projects/03.jpg);
+}
+.active4:hover{
+  background-image: url(../images/projects/04.jpg);
+}
+.active5:hover{
+  background-image: url(../images/projects/05.jpg);
+}
+.active6:hover{
+  background-image: url(../images/projects/06.jpg);
 }
 .project-detail-service {
   color: #c5a47e;

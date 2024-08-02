@@ -84,6 +84,7 @@ nav li:hover {
   font-size: 0;
   transition: 0.8s;
   opacity: 0.5;
+  opacity: 0.5;
 }
 
 /* SLIDES */
@@ -334,10 +335,12 @@ nav li:hover {
 }
 .Client {
   padding-top: 80px;
+  padding-top: 80px;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 100px;
   padding-bottom: 100px;
 }
 .section-detail-Client {
@@ -346,6 +349,7 @@ nav li:hover {
   margin-bottom: 20px;
   font-weight: 400;
   font-size: 36px;
+  line-height: 1em;
   line-height: 1em;
   text-transform: uppercase;
   word-spacing: 5px;
@@ -356,6 +360,10 @@ nav li:hover {
   margin-left: 8px;
   margin-right: 8px;
 }
+/* .Client > .img {
+  width: 16%;
+  margin-left: 375px;
+} */
 /* .Client > .img {
   width: 16%;
   margin-left: 375px;
@@ -493,6 +501,7 @@ nav li:hover {
   padding: 8px;
 }
 .contact p {
+.contact p {
   font-family: "Barlow", sans-serif;
   font-size: 15px;
   line-height: 1.75em;
@@ -502,6 +511,7 @@ nav li:hover {
   margin-bottom: 20px;
   padding: 8px;
 }
+.contact form input:not(#submit) {
 .contact form input:not(#submit) {
   margin-bottom: 12px;
   color: white;
@@ -513,9 +523,12 @@ nav li:hover {
   padding: 15px 0;
 }
 .contact form #Phone,
+.contact form #Phone,
 #FullName:focus {
   border-bottom: 1px solid white;
 }
+
+.contact form {
 
 .contact form {
   padding: 8px;
@@ -579,7 +592,9 @@ nav li:hover {
 
 /* On mouse-over, add a grey background color */
 /* .container:hover input ~ .checkmark {
+/* .container:hover input ~ .checkmark {
   background-color: transparent;
+} */
 } */
 
 /* When the checkbox is checked, add a blue background */
@@ -618,8 +633,15 @@ nav li:hover {
   border-bottom: 1px solid;
 }
 .container a:hover {
+.container a:hover {
   color: white;
 }
+.project-detail {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #c5a47e;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 .project-detail {
   font-size: 12px;
   margin-bottom: 5px;
@@ -640,12 +662,21 @@ nav li:hover {
   letter-spacing: 3px;
   z-index: 11;
   padding-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  z-index: 11;
+  padding-bottom: 16px;
 }
 .footer {
   margin: 12px;
   position: relative;
   border-top: 1px solid rgba(255, 255, 255, 0.03);
+.footer {
+  margin: 12px;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
 }
+.contact-us {
 .contact-us {
   font-weight: 400;
   line-height: 1.5em;
@@ -683,6 +714,31 @@ nav li:hover {
 }
 .phone {
   font-family: "Oswald", sans-serif;
+.contact-us-detail h3 {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #c5a47e;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 3px;
+}
+.contact-us-detail span {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.contact-us-detail .detail {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  line-height: 1.75em;
+  margin: 0 0 20px;
+  color: #999;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.phone {
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
   color: #fff;
   font-weight: 400;
@@ -692,6 +748,7 @@ nav li:hover {
   margin-bottom: 5px;
   letter-spacing: 2px;
 }
+.email {
 .email {
   font-size: 15px;
   color: #999;
